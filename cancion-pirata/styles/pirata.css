@@ -1,0 +1,20 @@
+/**** LISTA DE ESTILOS DE LA PAGINA WEB EL PIRATA***/
+        @font-face {
+                font-family: pirata; /*El nombre que yo quiera para mi fuente*/
+                src: url(../fonts/AlexBrush-Regular.ttf);/*donde esta el archivo*/
+        }
+
+        body {background-image: url("../images/Background.jpg");
+               /*Controlamos el tamaño del background*/
+                background-size: 500px ; 
+                /*background-repeat: repeat ; Puedo controlar la repetición del patrón*/
+                padding: 0;
+                margin: 0;}
+        
+        #container {background-color: rgba(255, 255, 255, 0.945);
+                width: 80%;
+                margin: auto;
+                padding: 15px;
+                font-family: pirata;
+                font-size: 2em;
+                text-align: center;}

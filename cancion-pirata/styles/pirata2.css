@@ -1,0 +1,27 @@
+/***Estilo Pirata de Fondo*****/
+
+@font-face {
+    font-family: pirata; /*El nombre que yo quiera para mi fuente*/
+    src: url(../fonts/AlexBrush-Regular.ttf);/*donde esta el archivo*/
+}
+
+body {background-color: rgb(143, 150, 0);}
+
+#container{background-image: url(../images/BackgroundPirata.jpg);/*La imagen esta en el container*/
+    background-size: cover;   /*Cover lo usamos para que no se repita la imgaen y además, nos permite estirar a lo ancho y lo alto la imagen si lo necesitamos*/
+    background-position: 66%;            /*Decido donde está el centro de interés de mi imagen de fondo, y de ahí fijo el punto para posteriores recortes por defecto,
+                                            es lenft,pero yo he puesto el segundo tercio (66%) */   
+        width: 80%; 
+        height: 100vh; /*Este height puede provocar que el texto del poema se salga del container*/
+        margin: auto;
+        font-family: pirata;
+        font-size: 1.2em;
+        box-sizing: 80px 80px 60px rgb(0,0,0); 
+        }
+        
+#poema{background-color:rgba(106, 54, 12, 0.605); /* Un color de la imagen de fondo */
+        width: 300px; /* en este caso muy particular nos conviene fijar el ancho en pixeles porque protege el ancho de líneas del poema y no rompe los versos.
+                        Además 3000px caben en el ancho de cualquier móvil.*/
+        margin: 20px;
+        padding: 20px;
+    }
